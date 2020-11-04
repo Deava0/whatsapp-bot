@@ -1,7 +1,8 @@
-import pyautogui as pt
-from time import sleep
-import pyperclip
 import random
+from time import sleep
+
+import pyautogui as pt
+import pyperclip
 
 sleep(2)
 position1 = pt.locateOnScreen("whatsapp/smiley_paperclip_white.jpg", confidence=.6)
@@ -47,8 +48,6 @@ def process_response(message):
 
     if "how are you" in str(message).lower():
         return "never been better"
-    elif "gay" in str(message).lower():
-        return "homophobia is a disease "
     elif "hi" in str(message).lower():
         return "Hi"
     elif "hello" in str(message).lower():
