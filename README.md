@@ -1,8 +1,11 @@
 # whatsapp-bot
 
 >pip install opencv-python
+
 >pip install pyautogui
+
 >pip install pyperclip
+
 >pip install pillow
 
 >pip uninstall numpy
